@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Data (keep only README)
+data/*
+!data/README.md
+
+# Generated artifacts
+*.parquet
+*.faiss
+*.index
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Misc
+.DS_Store
