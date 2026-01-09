@@ -15,7 +15,9 @@ The system embeds movie metadata into vector representations, retrieves the most
 
 ## Project Structure
 chatbot/        # Core chatbot logic
+
 scripts/        # Data ingestion and embedding generation
+
 data/           # Dataset instructions (no large files stored)
 
 ## How It Works
