@@ -8,7 +8,7 @@ import torch
 # === CONFIG ===
 load_dotenv()
 
-DATA_PATH = os.getenv("DATA_PATH", "./data/movies_metadata.csv")
+DATA_PATH = os.getenv("DATA_PATH", "./data/imdb_data.csv")
 EMBEDDINGS_PATH = os.getenv("EMBEDDINGS_PATH", "./data/embeddings.parquet")
 MODEL_DIR = os.getenv("MODEL_DIR", "/Workspace/Shared/models/all-MiniLM-L6-v2")
 MODEL_NAME = os.getenv("MODEL_NAME", "sentence-transformers/all-MiniLM-L6-v2")

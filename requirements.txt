@@ -1,0 +1,20 @@
+# Core data libraries
+pandas>=2.1.0
+numpy>=1.24.0,<2.0
+tqdm>=4.66.1
+
+# Embedding & ML models
+sentence-transformers>=2.2.2
+torch>=2.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# HTTP & API communication
+requests>=2.31.0
+
+# Ollama client for LLM inference
+ollama>=0.1.0
+
+# Databricks SDK (latest working version for free-tier runtime)
+databricks-sdk>=0.68.0
